@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  become: true
+  tasks: 
+
+  - name: shutdown all nodes
+    command: /sbin/shutdown +1  
+   
+
+ 
+  
